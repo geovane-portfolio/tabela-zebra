@@ -1,6 +1,30 @@
 * {
     box-sizing: border-box;
+    color: #fff;
 }
 body {
-    background-color: #111;
+    font-size: 17px;
+    background-color: #555;
+}
+table {
+    width: 800px;
+    border: 1px solid #fff;
+}
+td, th{
+    border: 1px solid #fff;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+table thead {
+    background-color: rgb(15, 48, 199);
+}
+tbody tr:hover {
+    background-color: rgb(10, 131, 168);
+}
+tbody {
+    background-color: rgb(18, 75, 233);
+}
+tbody:nth-child(even) {
+    background-color: rgb(126, 97, 2);
 }
